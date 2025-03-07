@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "mcu")(type "KiCad")(uri "${KIPRJMOD}/Symbols/mcu.kicad_sym")(options "")(descr ""))
   (lib (name "2024-10-16_16-26-40")(type "KiCad")(uri "${KIPRJMOD}/Symbols/2024-10-16_16-26-40.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-12-25_01-36-40")(type "KiCad")(uri "${KIPRJMOD}/Symbols/2024-12-25_01-36-40.kicad_sym")(options "")(descr ""))
+  (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
 )

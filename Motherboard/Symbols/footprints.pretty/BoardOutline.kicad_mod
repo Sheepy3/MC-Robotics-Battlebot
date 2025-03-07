@@ -1,0 +1,301 @@
+(footprint "BoardOutline"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -72.12023 -33.150002 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "36d1f24d-3137-423c-bd05-83231c2e7134")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BoardOutline"
+		(at -70.12023 -35.350002 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b84ae4a0-5f2c-45fb-bb6a-b3cc2bcbdaa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -77.52023 -11.350001 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b0f956b-0b0d-45c4-ac41-0e957c1b6b06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -77.52023 -11.350001 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0609f400-99b4-4fc6-98a6-197da5faeb72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -77.52023 -11.350001 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0948d39-a9f3-4130-b3e1-e69517025cd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -21 -24.250001)
+		(end -21 24.250002)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b0ca4063-0a48-498f-8bdb-f8392635f577")
+	)
+	(fp_line
+		(start -20.000002 -25.25)
+		(end -13.999998 -25.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "060f33b7-a4b7-4b6e-9917-ec8c02753949")
+	)
+	(fp_line
+		(start -20.000001 25.25)
+		(end 20 25.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ca1d70f5-564c-44c4-b381-e469b72963b5")
+	)
+	(fp_line
+		(start -13 -26.25)
+		(end -13 -34.250001)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8b983931-0934-4574-bf0f-d445cecbbd4c")
+	)
+	(fp_line
+		(start -12.000002 -35.25)
+		(end 20 -35.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e363ce6f-f8e4-4e68-909f-b066540fe34b")
+	)
+	(fp_line
+		(start 21 -34.25)
+		(end 21 24.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "86d1d700-cecc-4406-ba62-f0029a6d6374")
+	)
+	(fp_arc
+		(start -21 -24.250001)
+		(mid -20.707107 -24.957107)
+		(end -20.000002 -25.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a835a750-918e-4ae0-ab20-0cbe18e70645")
+	)
+	(fp_arc
+		(start -20.000001 25.25)
+		(mid -20.707107 24.957107)
+		(end -21 24.250002)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7a9d4435-66e6-49c0-9dfb-5b519a87537b")
+	)
+	(fp_arc
+		(start -13 -34.250001)
+		(mid -12.707107 -34.957107)
+		(end -12.000002 -35.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2b658919-e5b4-45db-bc16-b3c0a4eb4062")
+	)
+	(fp_arc
+		(start -13 -26.25)
+		(mid -13.292893 -25.542893)
+		(end -13.999998 -25.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "15a9d771-d0e3-4b66-b5fd-70c1840746ed")
+	)
+	(fp_arc
+		(start 20 -35.25)
+		(mid 20.707107 -34.957107)
+		(end 21 -34.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "147b443b-a5b9-4c7c-a027-078fcb45e56d")
+	)
+	(fp_arc
+		(start 21 24.25)
+		(mid 20.707107 24.957107)
+		(end 20 25.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8418b0fb-0ab2-4d35-897b-c165388d6594")
+	)
+	(fp_circle
+		(center -18 -17.75)
+		(end -16 -17.75)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "dc2c8024-05be-487b-b733-ca562491a827")
+	)
+	(fp_circle
+		(center -18 22.25)
+		(end -16 22.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "5c8cf37b-7a8b-4f24-ab17-ca42a4d11cf1")
+	)
+	(fp_circle
+		(center -9.5 0)
+		(end -7.5 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "ca7f9aa7-2d40-48e6-9b8f-dc90ef108260")
+	)
+	(fp_circle
+		(center 0 -9.5)
+		(end 2 -9.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "d6bfeef6-d6e6-4e6b-baa7-1f843e0afff7")
+	)
+	(fp_circle
+		(center 0 9.5)
+		(end 2 9.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "6b4e6615-07b6-43f2-9782-ae47e6b9c830")
+	)
+	(fp_circle
+		(center 9.5 0)
+		(end 11.5 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "fc180358-de1d-41fd-90df-4b53abef08a9")
+	)
+	(fp_circle
+		(center 18 -17.75)
+		(end 20 -17.75)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "44cd25a2-8951-489b-9543-ebf7d4e74659")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -69.52023 -37.150002 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "993737d8-3dc9-4fdd-b6e3-bbc7991c821d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(group ""
+		(uuid "2bdec82a-57d3-4130-b056-1f044b639056")
+		(members "060f33b7-a4b7-4b6e-9917-ec8c02753949" "147b443b-a5b9-4c7c-a027-078fcb45e56d"
+			"15a9d771-d0e3-4b66-b5fd-70c1840746ed" "2b658919-e5b4-45db-bc16-b3c0a4eb4062"
+			"44cd25a2-8951-489b-9543-ebf7d4e74659" "5c8cf37b-7a8b-4f24-ab17-ca42a4d11cf1"
+			"6b4e6615-07b6-43f2-9782-ae47e6b9c830" "7a9d4435-66e6-49c0-9dfb-5b519a87537b"
+			"8418b0fb-0ab2-4d35-897b-c165388d6594" "86d1d700-cecc-4406-ba62-f0029a6d6374"
+			"8b983931-0934-4574-bf0f-d445cecbbd4c" "a835a750-918e-4ae0-ab20-0cbe18e70645"
+			"b0ca4063-0a48-498f-8bdb-f8392635f577" "ca1d70f5-564c-44c4-b381-e469b72963b5"
+			"ca7f9aa7-2d40-48e6-9b8f-dc90ef108260" "d6bfeef6-d6e6-4e6b-baa7-1f843e0afff7"
+			"dc2c8024-05be-487b-b733-ca562491a827" "e363ce6f-f8e4-4e68-909f-b066540fe34b"
+			"fc180358-de1d-41fd-90df-4b53abef08a9"
+		)
+	)
+)
