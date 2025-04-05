@@ -2091,14 +2091,6 @@
 		(uuid "39914129-81f1-4275-9761-fd95a0492e97")
 	)
 	(no_connect
-		(at 154.94 81.28)
-		(uuid "5d2cf3f5-ca20-4f24-a952-6b9eb6280f09")
-	)
-	(no_connect
-		(at 156.21 26.67)
-		(uuid "5fe29be0-53d4-46b8-8ee5-e14a9dd4b20b")
-	)
-	(no_connect
 		(at 48.26 19.05)
 		(uuid "d680abab-81a2-43a7-b337-f6395879f7b8")
 	)
@@ -2521,6 +2513,16 @@
 			(type default)
 		)
 		(uuid "92560548-e129-4ad7-84d4-ec9050c83793")
+	)
+	(wire
+		(pts
+			(xy 96.52 96.52) (xy 114.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abbdee6-b2a0-40e0-9e90-0f3b157911a0")
 	)
 	(wire
 		(pts
@@ -3538,7 +3540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:2_Wire"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 143.51 123.19 0)
 			(effects
 				(font
@@ -4625,7 +4627,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 92.71 180)
+		(at 96.52 92.71 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4633,7 +4636,7 @@
 		(dnp no)
 		(uuid "49575559-8459-4a90-8d40-708da7b6a828")
 		(property "Reference" "R1"
-			(at 93.98 93.9801 0)
+			(at 99.06 93.9801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4645,7 @@
 			)
 		)
 		(property "Value" "10kohm"
-			(at 93.98 91.4401 0)
+			(at 99.06 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4654,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 98.298 92.71 90)
+			(at 94.742 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,6 +4871,72 @@
 			(project ""
 				(path "/1991c32d-5f82-4678-bacc-ea14347159fa"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "500fe6a3-d138-4ca6-9916-b0652a7e93fc")
+		(property "Reference" "#PWR032"
+			(at 156.21 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6142b7eb-1d39-44d5-94d4-9d0a0ddca02f")
+		)
+		(instances
+			(project ""
+				(path "/1991c32d-5f82-4678-bacc-ea14347159fa"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6776,7 +6845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:2_Wire"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -7427,6 +7496,72 @@
 			(project "Battlebot_motherboard"
 				(path "/1991c32d-5f82-4678-bacc-ea14347159fa"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7fc1141-d4fb-40f5-9bd4-618f5467a636")
+		(property "Reference" "#PWR033"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43a976b5-8ca9-41d2-b142-8d3f94772b0a")
+		)
+		(instances
+			(project "Battlebot_motherboard"
+				(path "/1991c32d-5f82-4678-bacc-ea14347159fa"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
