@@ -11044,6 +11044,15 @@
 		(uuid "042d645e-ecb5-4bbc-9579-900ce91298be")
 	)
 	(via
+		(at 165 85.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "09cac4de-7b89-43ba-849b-f090548ecedd")
+	)
+	(via
 		(at 151.003 89.1032)
 		(size 0.6)
 		(drill 0.3)
@@ -11465,6 +11474,15 @@
 		(free yes)
 		(net 3)
 		(uuid "d610f93b-9da9-4167-ab35-95fa9faa3786")
+	)
+	(via
+		(at 187.75 84.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "dd4b7137-592f-467e-b256-5ab14727154c")
 	)
 	(via
 		(at 165.4556 51.5874)
