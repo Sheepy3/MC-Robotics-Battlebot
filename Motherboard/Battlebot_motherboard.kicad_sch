@@ -5057,7 +5057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "footprints:CAP_UCD_4X5P8_NCH"
 			(at 196.5452 105.41 0)
 			(effects
 				(font
@@ -7410,7 +7410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "footprints:CAP_UCD_4X5P8_NCH"
 			(at 197.8152 50.8 0)
 			(effects
 				(font
