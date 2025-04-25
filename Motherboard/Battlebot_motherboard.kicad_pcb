@@ -10958,7 +10958,7 @@
 			)
 		)
 	)
-	(gr_text "MC robotics club\nR4PT0R\nV1.0 4/22/25\nPCB Designed by:\nShawn Malluwa-wadu\nJacob (dragoncoder047)"
+	(gr_text "MC robotics club\nR4PT0R\nV1.0 4/25/25\nPCB Designed by:\nShawn Malluwa-wadu\nJacob (dragoncoder047)"
 		(at 188.75 57 90)
 		(layer "F.SilkS")
 		(uuid "54b975df-6f71-45a9-8bdd-2030ab4c29ec")
