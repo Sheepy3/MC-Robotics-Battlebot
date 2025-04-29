@@ -31,3 +31,6 @@ fp-info-cache
 /AnsysSim
 /PrePoMax
 gerber/
+
+*.kicad_sch.lck
+
