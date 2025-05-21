@@ -34,3 +34,6 @@ gerber/
 *.kicad_pcb.lck
 *.kicad_sch.lck
 
+
+# apple crap files
+*.DS_Store
