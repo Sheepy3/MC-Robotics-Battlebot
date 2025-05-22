@@ -40,7 +40,7 @@ typedef struct {
 
 status_reg status[2];
 control_reg ctl[2];
-uint16_t dataOut[2];
+uint16_t dataOut[2] = { 0, 0 };
 uint16_t dataIn[2] = { 0, 0 };
 
 #define L9958_CS 1
@@ -76,7 +76,6 @@ void update() {
     }
     SPI.endTransaction();
     digitalWrite(L9958_CS, HIGH);
-
 }
 
 }
