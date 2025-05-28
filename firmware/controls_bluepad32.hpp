@@ -32,7 +32,7 @@ void read_controls() {
     if (!connected()) return;
     if (!xbox->hasData()) return;
     controls.throttle = xbox->throttle() - xbox->brake();
-    controls.steering = abs(controls.throttle) * xbox->axisX();
+    controls.steering = xbox->axisX();
     static int w = 0;
     static int p = 0;
     if (xbox->r1()) p = 1;

@@ -51,7 +51,7 @@ void setup() {
 }
 
 void update() {
-    SPI.beginTransaction(SPISettings(14000000, LSBFIRST, SPI_MODE1));
+    SPI.beginTransaction(SPISettings(1000000, LSBFIRST, SPI_MODE1));
     digitalWrite(L9958_CS, LOW);
     memset(dataOut, 0, sizeof(dataOut));
     for (int i = 0; i < 2; i++)

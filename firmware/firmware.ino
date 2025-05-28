@@ -33,7 +33,7 @@ void setup() {
     pinMode(RIGHT_PWM, OUTPUT);
     pinMode(LEFT_DIR, OUTPUT);
     pinMode(RIGHT_DIR, OUTPUT);
-    analogWriteResolution(1024);
+    analogWriteResolution(9);
     Serial.println("L9958 init");
     controls_setup();
     Serial.println("controls init");
