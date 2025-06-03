@@ -77,5 +77,5 @@ void loop() {
     analogWrite(LEFT_PWM, abs(leftPower));
     digitalWrite(RIGHT_DIR, rightPower > 0);
     analogWrite(RIGHT_PWM, abs(rightPower));
-    esc.write(controls.weapon);
+    esc.writeMicroseconds(controls.weapon);
 }
